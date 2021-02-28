@@ -4,8 +4,9 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
+import nRevImg from '../assets/images/naver_booking.gif';
+import pic1 from '../assets/images/pic03.jpg';
+import pic2 from '../assets/images/pic03.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
 const IndexPage = () => (
@@ -18,7 +19,7 @@ const IndexPage = () => (
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                Explore
+                더보기
               </a>
             </Scroll>
           </li>
@@ -35,35 +36,23 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            어반 프라이빗짐은 24/7 운동공간 대여 서비스 입니다. 
+            <br/>
+            예약한 시간만큼 눈치보지 않고 시설을 이용할 수 있습니다.
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            네이버 예약을 통해 시설을 시간 단위로 예약하고,
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            예약한 시간에는 예약자 외에 아무도 이용할 수 없습니다.
           </p>
         </header>
-        <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul>
+        <div className="box alt">
+          <div className="row gtr-50 gtr-uniform">
+            <div className="col-4"></div>
+            <div className="col-4"><span className="image fit"><img src={nRevImg} alt="" /></span></div>
+            <div className="col-4"></div>
+          </div>
+				</div>
       </div>
     </section>
 
@@ -74,13 +63,11 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+            최고급 파워랙 / 목재 플랫폼 완비
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            모노리프트, 케이블, 티바로우 랫 풀다운까지 모두 갖춘 최고급 파워랙과, 
+            흔들리지 않는 리프팅을 위한 목재 플랫폼까지 완비하였습니다.
           </p>
         </div>
       </section>
@@ -90,13 +77,12 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
+            최고급 리프팅 장비
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Eleiko, REP fitness, Podium 등 최상급 바벨과 함께
+            충분한 중량의 올림픽 규격 최고급 우레탄 플레이트를 완비했습니다. 
+            Premium room 은 약 480kg, Standard room 은 약 380kg의 중량 사용이 가능합니다.
           </p>
         </div>
       </section>
@@ -106,13 +92,11 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
+            편안한 이용을 위한 무인 시스템
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            부담없이 편안하게 어반 프라이빗짐의 시설을 즐길 수 있도록, 
+            24/7 무인 기반으로 운영되고 있습니다. (청소 및 시설 유지를 위해 일부 시간에는 상주합니다)
           </p>
         </div>
       </section>

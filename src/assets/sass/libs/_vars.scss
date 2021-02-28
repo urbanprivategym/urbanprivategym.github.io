@@ -17,7 +17,7 @@
 		element-height:		2.75em,
 		element-margin:		2em,
 		letter-spacing:		0.075em,
-		letter-spacing-alt:	0.225em
+		letter-spacing-alt:	0.165em
 	);
 
 // Font.
@@ -31,7 +31,7 @@
 
 // Palette.
 	$palette: (
-		bg:					#2e3842,
+		bg:					#242426,
 		fg:					#fff,
 		fg-bold:			#fff,
 		fg-light:			rgba(255,255,255,0.5),
@@ -110,6 +110,29 @@
 			bg:				#ffffff,
 			fg-bold:		#2E3842,
 			fg:				#4E4852,
+			fg-light:		#8E8892,
+			border:			#dfdfdf,
+			border-bg:		rgba(0,0,0,0.0375),
+			border2:		#bfbfbf,
+			border2-bg:		rgba(0,0,0,0.1)
+		),
+
+		
+		accent8: (
+			bg:				#201E67,
+			fg-bold:		#2E3842,
+			fg:				#4E4852,
+			fg-light:		#8E8892,
+			border:			#dfdfdf,
+			border-bg:		rgba(0,0,0,0.0375),
+			border2:		#bfbfbf,
+			border2-bg:		rgba(0,0,0,0.1)
+		),
+				
+		accent9: (
+			bg:				#242426,
+			fg-bold:		#dfdfdf,
+			fg:				#8E8892,
 			fg-light:		#8E8892,
 			border:			#dfdfdf,
 			border-bg:		rgba(0,0,0,0.0375),
