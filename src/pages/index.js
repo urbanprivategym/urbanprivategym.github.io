@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
 import mainLogo from '../assets/images/logo_white.png';
-import circleLogo from '../assets/images/logo_circle.png';
+import centerImg from '../assets/images/247.jpeg';
 import pic1 from '../assets/images/cov_1.jpeg';
 import pic2 from '../assets/images/cov_2.jpeg';
 import pic3 from '../assets/images/pic03.jpg';
@@ -29,7 +29,7 @@ const IndexPage = () => (
         <div className="box alt">
           <div className="row gtr-50 gtr-uniform">
             <div className="col-4"></div>
-            <div className="col-4"><span className="image fit"><img src={circleLogo} alt="" /></span></div>
+            <div className="col-4"><span className="image fit"><img src={centerImg} alt="" /></span></div>
             <div className="col-4"></div>
           </div>
 				</div>
