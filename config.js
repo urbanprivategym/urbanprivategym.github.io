@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Spectral', // <title>
-  manifestName: 'Spectral',
+  siteTitle: 'URBAN PRIVATE GYM', // <title>
+  manifestName: 'UP GYM',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
