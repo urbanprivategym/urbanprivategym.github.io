@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Urban Private Gym',
-  subHeading: '프라이빗한 공간에서 최고의 운동시설을 경험하다',
+  subHeading: '프라이빗한 공간에서 최고의 운동을 경험하다',
   // social
   socialLinks: [
     {
