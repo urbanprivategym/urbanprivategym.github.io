@@ -6,9 +6,9 @@ import Scroll from '../components/Scroll';
 
 import mainLogo from '../assets/images/logo_white.png';
 import centerImg from '../assets/images/247.jpeg';
-import pic1 from '../assets/images/cov_1.jpeg';
-import pic2 from '../assets/images/cov_2.jpeg';
-import pic3 from '../assets/images/pic03.jpg';
+import powerRack from '../assets/images/b16.jpeg';
+import liftingEq from '../assets/images/b3.jpeg';
+import nobody from '../assets/images/m1.jpeg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -50,7 +50,7 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" />
+          <img src={powerRack} alt="" />
         </div>
         <div className="content">
           <h2>
@@ -64,7 +64,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src={liftingEq} alt="" />
         </div>
         <div className="content">
           <h2>
@@ -79,7 +79,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img src={nobody} alt="" />
         </div>
         <div className="content">
           <h2>
@@ -102,19 +102,19 @@ const IndexPage = () => (
           </p>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
+          <li className="icon solid fa-headset">
             <h3>최고의 운동 놀이터</h3>
             <p>
               다른 사람을 신경쓰지도 않고, 파워랙을 차지하기 위해 눈치를 볼 필요도 없으며 편안하게 최고의 장비로 운동할 수 있습니다.
             </p>
           </li>
-          <li className="icon solid fa-laptop">
+          <li className="icon solid fa-chalkboard-teacher">
             <h3>개인 퍼스널 트레이닝</h3>
             <p>
-              어반 프라이빗짐은 자체 퍼스널 트레이닝을 지원하지 않으므로, 개인별 고객을 모집하고 대관 장소에서 자유롭게 수업을 진행할 수 있습니다.
+              어반 프라이빗짐은 현재 퍼스널 트레이닝을 제공하지 않으므로, 개인별 고객을 모집하고 대관 장소에서 자유롭게 수업을 진행할 수 있습니다.
             </p>
           </li>
-          <li className="icon solid fa-code">
+          <li className="icon solid fa-camera-retro">
             <h3>때로는 스튜디오처럼</h3>
             <p>
               유튜브 컨텐츠부터 프로필 촬영 등등 자유롭게 촬영 스튜디오 용도로도 사용이 가능합니다.
