@@ -1695,7 +1695,7 @@
 
 		@include breakpoint('<=small') {
 			@include padding(7em, 3em);
-			height: 90vh;
+			height: 85vh;
 			min-height: 0;
 
 			h2 {
