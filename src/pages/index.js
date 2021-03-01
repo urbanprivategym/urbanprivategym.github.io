@@ -4,9 +4,9 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import nRevImg from '../assets/images/naver_booking.gif';
-import pic1 from '../assets/images/pic03.jpg';
-import pic2 from '../assets/images/pic03.jpg';
+import circleLogo from '../assets/images/logo_circle.png';
+import pic1 from '../assets/images/cov_1.jpeg';
+import pic2 from '../assets/images/cov_2.jpeg';
 import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
 const IndexPage = () => (
@@ -34,32 +34,31 @@ const IndexPage = () => (
 
     <section id="one" className="wrapper style1 special">
       <div className="inner">
-        <header className="major">
-          <h2>
-            어반 프라이빗짐은 24/7 운동공간 대여 서비스 입니다. 
-            <br/>
-            예약한 시간만큼 눈치보지 않고 시설을 이용할 수 있습니다.
-          </h2>
-          <p>
-            네이버 예약을 통해 시설을 시간 단위로 예약하고,
-            <br />
-            예약한 시간에는 예약자 외에 아무도 이용할 수 없습니다.
-          </p>
-        </header>
         <div className="box alt">
           <div className="row gtr-50 gtr-uniform">
             <div className="col-4"></div>
-            <div className="col-4"><span className="image fit"><img src={nRevImg} alt="" /></span></div>
+            <div className="col-4"><span className="image fit"><img src={circleLogo} alt="" /></span></div>
             <div className="col-4"></div>
           </div>
 				</div>
+        <br/>
+        <header className="major">
+          <h2>
+            어반 프라이빗짐은 24/7 운동공간 대여 서비스 입니다. 
+          </h2>
+          <p>
+            네이버 예약을 통해 시설을 시간 단위로 예약하고, 
+            <br />
+            예약한 시간만큼 마음껏 시설을 이용할 수 있습니다.
+          </p>
+        </header>
       </div>
     </section>
 
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src={pic2} alt="" />
         </div>
         <div className="content">
           <h2>
@@ -73,7 +72,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" />
+          <img src={pic1} alt="" />
         </div>
         <div className="content">
           <h2>
@@ -95,8 +94,8 @@ const IndexPage = () => (
             편안한 이용을 위한 무인 시스템
           </h2>
           <p>
-            부담없이 편안하게 어반 프라이빗짐의 시설을 즐길 수 있도록, 
-            24/7 무인 기반으로 운영되고 있습니다. (청소 및 시설 유지를 위해 일부 시간에는 상주합니다)
+            더웃 편안하게 어반 프라이빗짐의 시설을 즐길 수 있도록, 
+            24/7 무인 기반으로 운영되고 있습니다. (청소 및 시설 유지를 위해 일부 시간 거주)
           </p>
         </div>
       </section>
@@ -105,56 +104,34 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>어반 프라이빗짐을 활용하는 방법</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            운동시설 대여, 퍼스널 트레이닝 부터 스튜디오 용도 까지 다양하게 이용할 수 있습니다 
           </p>
         </header>
         <ul className="features">
           <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
+            <h3>최고의 운동 놀이터</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              다른 사람을 신경쓰지도 않고, 파워랙을 차지하기 위해 눈치를 볼 필요도 없으며 편안하게 최고의 장비로 운동할 수 있습니다.
             </p>
           </li>
           <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
+            <h3>개인 퍼스널 트레이닝</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              어반 프라이빗짐은 자체 퍼스널 트레이닝을 지원하지 않으므로, 개인별 고객을 모집하고 대관 장소에서 자유롭게 수업을 진행할 수 있습니다.
             </p>
           </li>
           <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
+            <h3>때로는 스튜디오처럼</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              유튜브 컨텐츠부터 프로필 촬영 등등 자유롭게 촬영 스튜디오 용도로도 사용이 가능합니다.
             </p>
           </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
+          <li className="icon solid fa-heart">
+            <h3>이색 데이트 장소</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              어반 프라이빗짐에서 바벨을 들고 함께 땀흘리며 이색 데이트를 하며, 눈치보지 않고 사진도 마음껏 찍어보세요!
             </p>
           </li>
         </ul>
@@ -164,21 +141,20 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Reservation</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            네이버 예약을 통해 바로 지금 예약해 보세요!
           </p>
         </header>
         <ul className="actions stacked">
           <li>
             <a href="/#" className="button fit primary">
-              Activate
+              예약하러 가기
             </a>
           </li>
           <li>
             <a href="/#" className="button fit">
-              Learn More
+              문의하기
             </a>
           </li>
         </ul>

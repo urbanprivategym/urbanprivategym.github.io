@@ -16,9 +16,9 @@ export default function Footer() {
         })}
       </ul>
       <ul className="copyright">
-        <li>&copy; Spectral</li>
+        <li>&copy; 어반프라이빗짐 주식회사</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+          URBAN PRIVATE GYM
         </li>
       </ul>
     </footer>
