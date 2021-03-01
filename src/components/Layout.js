@@ -46,8 +46,9 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Spectral' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: '프라이빗한 공간에서 최고의 운동을 경험하다' },
+                { name: 'keywords', content: '도곡동, 스트렝스, 운동, 헬스장, 파워리프팅짐' },
+                { name: 'image', content: '/src/assets/images/logo.png' },
               ]}
             >
               <html lang="en" />
