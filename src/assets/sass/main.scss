@@ -1912,13 +1912,11 @@
 	body.landing, .main-body.landing {
 		#page-wrapper {
 			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpeg")'));
-			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
-			min-width: 100%;
-			min-height: 100%;
+			height: 100vh;
 		}
 
 		#footer {
@@ -1941,8 +1939,7 @@
 				-moz-background-size: cover;
 				-o-background-size: cover;
 				background-size: cover;
-				min-width: 100%;
-				min-height: 100%;
+				height: 100vh;
 			}
 
 			#footer {

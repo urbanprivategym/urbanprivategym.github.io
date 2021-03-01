@@ -129,29 +129,6 @@ const IndexPage = () => (
         </ul>
       </div>
     </section>
-
-    <section id="cta" className="wrapper style4">
-      <div className="inner">
-        <header>
-          <h2>Reservation</h2>
-          <p>
-            네이버 예약을 통해 바로 지금 예약해 보세요!
-          </p>
-        </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              예약하러 가기
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              문의하기
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
   </Layout>
 );
 
