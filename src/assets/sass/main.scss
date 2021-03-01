@@ -1921,7 +1921,8 @@
 			#banner,
 			.wrapper.style4 {
 				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpeg")'));
-				background-position: center center;
+				background-attachment: fixed;
+				background-position: 100%;
 				background-repeat: no-repeat;
 				background-size: 100vmax 100vmax;
 			}
