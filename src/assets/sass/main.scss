@@ -1901,9 +1901,9 @@
 		#page-wrapper {
 			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpeg")'));
 			background-attachment: fixed;
-			background-position: 30%;
+			background-position: center center;
 			background-repeat: no-repeat;
-			background-size: 100vmax 100vmax;
+			background-size: cover;
 			padding-top: 0;
 		}
 
@@ -1921,12 +1921,13 @@
 			#banner,
 			.wrapper.style4 {
 				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpeg")'));
-				background-attachment: fixed;
-				background-position: 100%;
+				background-position: center center;
 				background-repeat: no-repeat;
-				background-size: 100vmax 100vmax;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
 			}
-
 
 			#footer {
 				background-color: darken(_palette(bg), 8);
