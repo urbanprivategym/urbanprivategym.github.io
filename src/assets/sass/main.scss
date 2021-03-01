@@ -1901,11 +1901,26 @@
 		#page-wrapper {
 			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpeg")'));
 			background-attachment: fixed;
-			background-position: 100%;
+			background-position: 30%;
 			background-repeat: no-repeat;
 			background-size: 100vmax 100vmax;
 			padding-top: 0;
 		}
+
+		#page-wrapper:after{
+			content:"";
+			position:fixed; /* stretch a fixed position to the whole screen */
+			top:0;
+			height:100vh; /* fix for mobile browser address bar appearing disappearing */
+			left:0;
+			right:0;
+			z-index:-1; /* needed to keep in the background */
+			background: url(https://newevolutiondesigns.com/images/freebies/nature-hd-background-9.jpg) center center;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+	  	}
 
 		#footer {
 			background-color: darken(transparentize(_palette(bg), 0.1), 8);
@@ -1926,6 +1941,23 @@
 				background-repeat: no-repeat;
 				background-size: 100vmax 100vmax;
 			}
+
+			
+			#page-wrapper:after{
+				content:"";
+				position:fixed; /* stretch a fixed position to the whole screen */
+				top:0;
+				height:100vh; /* fix for mobile browser address bar appearing disappearing */
+				left:0;
+				right:0;
+				z-index:-1; /* needed to keep in the background */
+				background: url(https://newevolutiondesigns.com/images/freebies/nature-hd-background-9.jpg) center center;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+			}
+
 
 			#footer {
 				background-color: darken(_palette(bg), 8);
