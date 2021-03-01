@@ -1917,6 +1917,8 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
+			min-width: 100%;
+			min-height: 100%;
 		}
 
 		#footer {
@@ -1939,6 +1941,8 @@
 				-moz-background-size: cover;
 				-o-background-size: cover;
 				background-size: cover;
+				min-width: 100%;
+				min-height: 100%;
 			}
 
 			#footer {
