@@ -1620,6 +1620,18 @@
 			}
 		}
 
+		@media screen and (min-width: 1024px) {
+			img {
+				width: 50%;
+			}
+		}
+
+		@media screen and (max-width: 1023px) {
+			img {
+				width: 80%;
+			}
+		}
+
 		p {
 			letter-spacing: _size(letter-spacing-alt);
 			text-transform: uppercase;

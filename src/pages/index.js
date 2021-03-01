@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
+import mainLogo from '../assets/images/logo_white.png';
 import circleLogo from '../assets/images/logo_circle.png';
 import pic1 from '../assets/images/cov_1.jpeg';
 import pic2 from '../assets/images/cov_2.jpeg';
@@ -13,17 +14,8 @@ const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
-        <h2>{config.heading}</h2>
+        <img src={mainLogo} alt="" />
         <p>{config.subHeading}</p>
-        <ul className="actions special">
-          <li>
-            <Scroll type="id" element="one">
-              <a href="/#" className="button primary">
-                더보기
-              </a>
-            </Scroll>
-          </li>
-        </ul>
       </div>
       <Scroll type="id" element="one">
         <a href="#one" className="more">
