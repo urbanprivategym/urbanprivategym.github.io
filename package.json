@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-spectral",
+  "name": "urbanprivategym",
   "version": "0.0.1",
   "description": "Gatsby.js V2 starter template based on Spectral by HTML5 UP",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-spectral.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
+    "name": "Urban Private Gym",
     "email": "anubhav.srivastava00@gmail.com"
   },
   "dependencies": {
