@@ -19,14 +19,23 @@ export default function Nav({ onMenuToggle = () => {} }) {
           <div id="menu">
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">홈</Link>
               </li>
               <li>
-                <Link to="/Generic">Generic Page</Link>
+                <Link to="/Gymtour">짐 투어</Link>
               </li>
               <li>
-                <Link to="/Elements">Elements</Link>
+                <Link to="/Fee">이용요금</Link>
               </li>
+              <li>
+                <Link to="/Info">이용안내</Link>
+              </li>
+              <li>
+                <Link to="/Notice">공지사항</Link>
+              </li>
+              <li>
+                <Link to="/Contact">위치 및 연락처</Link>
+              </li>             
             </ul>
             <a
               className="close"

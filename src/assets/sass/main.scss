@@ -650,8 +650,11 @@
 			width: 100%;
 
 			img {
-				border-radius: 50%;
 				width: 100%;
+			}
+
+			.circle {
+				border-radius: 50%!important;
 			}
 		}
 	}
@@ -1793,6 +1796,7 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			text-align: center;
+			height: 45vh;
 
 			h2 {
 				font-size: 1.75em;
@@ -1820,10 +1824,12 @@
 
 			@include breakpoint('<=medium') {
 				@include padding(10em, 3em);
+				height: 40vh;
 			}
 
 			@include breakpoint('<=small') {
 				@include padding(5em, 3em);
+				height: 33vh;
 
 				h2 {
 					font-size: 1.25em;

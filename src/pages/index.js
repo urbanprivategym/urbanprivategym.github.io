@@ -29,7 +29,7 @@ const IndexPage = () => (
         <div className="box alt">
           <div className="row gtr-50 gtr-uniform">
             <div className="col-4"></div>
-            <div className="col-4"><span className="image fit"><img src={centerImg} alt="" /></span></div>
+            <div className="col-4"><span className="image fit"><img className="circle" src={centerImg} alt="" /></span></div>
             <div className="col-4"></div>
           </div>
 				</div>
