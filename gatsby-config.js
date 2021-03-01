@@ -4,6 +4,8 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
+    description: config.siteDescription,
+    image: config.siteImage
   },
   plugins: [
     'gatsby-plugin-react-helmet',

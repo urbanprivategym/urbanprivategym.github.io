@@ -10,6 +10,8 @@ module.exports = {
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Urban Private Gym',
   subHeading: '프라이빗한 공간에서 최고의 운동을 경험하다',
+  siteDescription: '프라이빗한 공간에서 최고의 운동을 경험하다',
+  siteImage: 'src/assets/images/logo.png',
   // social
   socialLinks: [
     {
