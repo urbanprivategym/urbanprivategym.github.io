@@ -17,11 +17,10 @@ import s8 from '../assets/images/s8.jpeg';
 import s9 from '../assets/images/s9.jpeg';
 import m1 from '../assets/images/m1.jpeg';
 
-import banner from '../assets/images/banner.jpeg';
 const IndexPage = () => <Layout>
 	<article id="main">
 		<header>
-			<h2>Gym tour</h2>
+			<h2>짐 투어</h2>
 			<p>어반프라이빗짐 시설안내</p>
 		</header>
 		<section className="wrapper style5">
@@ -54,36 +53,41 @@ const IndexPage = () => <Layout>
 				</section>
                 <section>
 					<h3>Others</h3>
-					<h4>휴게시설</h4>
-					<div className="box alt">
-						<div className="row gtr-50 gtr-uniform">
-							<div className="col-12"><span className="image fit"><img src={b18} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
+					<p>업로드 예정 (휴게시설 / 피팅룸 / 주차공간)</p>
+					{false && 
+					<>
+						<h4>휴게시설</h4>
+						<div className="box alt">
+							<div className="row gtr-50 gtr-uniform">
+								<div className="col-12"><span className="image fit"><img src={b18} alt="" /></span></div>
+								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
+								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
+								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
+								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
+							</div>
 						</div>
-					</div>
-					<h4>피팅룸</h4>
-					<div className="box alt">
-						<div className="row gtr-50 gtr-uniform">
-                        <div className="col-12"><span className="image fit"><img src={b19} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-						</div>
-					</div>  
-                    <h4>주차공간</h4>
-					<div className="box alt">
-						<div className="row gtr-50 gtr-uniform">
-                        <div className="col-12"><span className="image fit"><img src={b19} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-						</div>
-					</div>                                          
+						<h4>피팅룸</h4>
+						<div className="box alt">
+							<div className="row gtr-50 gtr-uniform">
+							<div className="col-12"><span className="image fit"><img src={b19} alt="" /></span></div>
+								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
+								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
+								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
+								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
+							</div>
+						</div>  
+						<h4>주차공간</h4>
+						<div className="box alt">
+							<div className="row gtr-50 gtr-uniform">
+							<div className="col-12"><span className="image fit"><img src={b19} alt="" /></span></div>
+								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
+								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
+								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
+								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
+							</div>
+						</div>  
+					</> 					
+					}                                       
 				</section>
 			</div>
 		</section>

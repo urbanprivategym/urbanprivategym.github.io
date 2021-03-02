@@ -10,6 +10,7 @@ import powerRack from '../assets/images/b16.jpeg';
 import liftingEq from '../assets/images/b3.jpeg';
 import nobody from '../assets/images/m1.jpeg';
 import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">

@@ -15,14 +15,14 @@ const IndexPage = () => <Layout>
                     {
                         config.noticeList.map((value, index) => {
                             return (
-                                <>
+                                <div key={index}>
                                     <header>
                                         <h4>{value.title}</h4>
                                         <p>{value.subTitle}</p>
                                     </header>
                                     <p>{value.content}</p>
                                     <hr />
-                                </>
+                                </div>
                             )
                         })
                     }

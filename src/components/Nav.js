@@ -25,7 +25,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/Gymtour">짐 투어</Link>
               </li>
               <li>
-                <Link to="/Fee">이용요금</Link>
+                <Link to="/Fee">이용요금 및 예약</Link>
               </li>
               <li>
                 <Link to="/Info">이용안내</Link>

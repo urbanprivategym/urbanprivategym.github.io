@@ -22,7 +22,7 @@ module.exports = {
       style: 'brands',
       icon: 'fa-instagram',
       name: 'Instagram',
-      url: '#!',
+      url: 'https://www.instagram.com/urbanprivategym/',
     },
     {
       style: 'solid',
