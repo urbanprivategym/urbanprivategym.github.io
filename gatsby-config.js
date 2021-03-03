@@ -7,11 +7,11 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-gtag',
+      resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingId: 'G-264066890', // 측정 ID
-        head: false, // head에 tracking script를 넣고 싶다면 true로 변경 
-        anonymize: true,
+        trackingIds: [
+          "G-264066890&", // Google Analytics / GA
+        ],
       },
     },
     'gatsby-plugin-react-helmet',
