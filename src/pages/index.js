@@ -98,9 +98,11 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>어반 프라이빗짐을 활용하는 방법</h2>
-          <p>
-            단순 운동시설 대여, 퍼스널 트레이닝 부터 스튜디오 용도 까지 다양하게 이용할 수 있습니다 
-          </p>
+          <br></br><br></br>
+          <div className="iframeContainer">
+            <iframe src="https://www.youtube.com/embed/ypPqXwyihB0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>    
+          <br></br>   
         </header>
         <ul className="features">
           <li className="icon solid fa-headset">
