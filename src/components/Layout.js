@@ -47,8 +47,9 @@ class Layout extends Component {
               title={data.site.siteMetadata.title}
               meta={[
                 { name: 'description', content: '프라이빗한 공간에서 최고의 운동을 경험하다' },
-                { name: 'keywords', content: '도곡동, 스트렝스, 운동, 헬스장, 파워리프팅짐' },
-                { name: 'image', content: 'https://postfiles.pstatic.net/MjAyMTAzMDFfMTY5/MDAxNjE0NTkxMjkwMTE2.qBSLH7EkIsc6ZKfGeYGsJGrNQ9KaCacgkQN702FquSwg.hEtNJFryZ8AdNuA2MrR8ge-R0YWYTCg6D-aoP0zI5Usg.PNG.dickings/UPGYM_TAG2.png?type=w773' },
+                { name: 'og:description', content: '프라이빗한 공간에서 최고의 운동을 경험하다' },
+                { name: 'og:keywords', content: '도곡동, 스트렝스, 운동, 헬스장, 파워리프팅짐, 어반프라이빗짐, urbanprivategym' },
+                { name: 'og:image', content: 'https://postfiles.pstatic.net/MjAyMTAzMDFfMTY5/MDAxNjE0NTkxMjkwMTE2.qBSLH7EkIsc6ZKfGeYGsJGrNQ9KaCacgkQN702FquSwg.hEtNJFryZ8AdNuA2MrR8ge-R0YWYTCg6D-aoP0zI5Usg.PNG.dickings/UPGYM_TAG2.png?type=w773' },
               ]}
             >
               <html lang="en" />
