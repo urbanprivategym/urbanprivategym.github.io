@@ -100,7 +100,7 @@ const IndexPage = () => (
           <h2>어반 프라이빗짐을 활용하는 방법</h2>
           <br></br><br></br>
           <div className="iframeContainer">
-            <iframe src="https://www.youtube.com/embed/ypPqXwyihB0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe title='youTubeVideo' src="https://www.youtube.com/embed/ypPqXwyihB0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>    
           <br></br>   
         </header>

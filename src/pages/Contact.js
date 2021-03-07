@@ -14,6 +14,7 @@ const IndexPage = () => <Layout>
                     <div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
                             <div className="col-6 col-12-medium">
+                                <h3>어반프라이빗짐 서울 도곡점</h3>
                                 <h4>상세주소</h4>
 					            <p>서울 강남구 논현로38길 32-11 지하 1층<br></br>매봉역 4번출구 도보 2-3분 거리</p>
                                 <div className="row">

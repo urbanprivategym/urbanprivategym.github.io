@@ -1338,6 +1338,21 @@
 			}
 		}
 
+		.orgPrice{
+			color: #828282;
+			text-decoration: line-through;
+		}
+
+		.dicDesc{
+			font-size: 0.9em;
+			color: #5e75e6;
+		}
+
+		.openTime{
+			font-weight: 400;
+			font-size: 0.8em;
+		}
+
 		.respContainer {
 			position: relative;
 			overflow: hidden;
