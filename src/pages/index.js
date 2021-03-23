@@ -8,6 +8,7 @@ import mainLogo from '../assets/images/logo_white.png';
 import centerImg from '../assets/images/247.jpeg';
 import powerRack from '../assets/images/b16.jpeg';
 import liftingEq from '../assets/images/b3.jpeg';
+import cesco from '../assets/images/cescocare3.jpeg';
 import nobody from '../assets/images/m1.jpeg';
 import config from '../../config';
 
@@ -17,6 +18,7 @@ const IndexPage = () => (
       <div className="inner">
         <img src={mainLogo} alt="" />
         <p>{config.subHeading}</p>
+        <p>[4월 오픈 준비중]</p>
       </div>
       <Scroll type="id" element="one">
         <a href="#one" className="more">
@@ -75,6 +77,20 @@ const IndexPage = () => (
             Eleiko, REP fitness, Podium 등 최상급 바벨과 함께
             충분한 중량의 올림픽 규격 최고급 우레탄 플레이트와 주물 원판을 완비했습니다. 
             Premium room 은 약 460kg, Standard room 은 약 350kg의 중량 사용이 가능합니다.
+          </p>
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
+          <img src={cesco} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            감염병 예방을 위한 세스코 바이러스케어
+          </h2>
+          <p>
+            24시간 내내 오염된 공기를 흡입하여 자외선 UV-C로 바이러스와 세균을 빠르고 강력하게 살균하는 <b>세스코 바이러스케어 시스템</b>을 완비하여
+            고객분들께서 감염병으로부터 더욱 안전한 운동을 즐길 수 있도록 하였습니다.
           </p>
         </div>
       </section>
