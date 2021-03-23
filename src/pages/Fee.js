@@ -144,7 +144,7 @@ const IndexPage = () => <Layout>
 
 				<section>
 					<ul className="actions">
-						<li><a onClick={() => alert('3월 중순 오픈 예정입니다 ^^')} className="button primary">예약하러 가기</a></li>
+						<li><a onClick={() => alert('4월 오픈 예정입니다 ^^')} className="button primary">예약하러 가기</a></li>
 					</ul>
 				</section>
 			</div>
