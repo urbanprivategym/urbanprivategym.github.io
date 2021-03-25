@@ -10,11 +10,14 @@ import b15 from '../assets/images/b15.jpeg';
 import b18 from '../assets/images/b18.jpeg';
 import b19 from '../assets/images/b19.jpeg';
 import b21 from '../assets/images/b21.jpeg';
-import s2 from '../assets/images/s2.jpeg';
-import s3 from '../assets/images/s3.jpeg';
-import s7 from '../assets/images/s7.jpeg';
-import s8 from '../assets/images/s8.jpeg';
-import s9 from '../assets/images/s9.jpeg';
+import s1 from '../assets/images/upgs1.jpeg';
+import s2 from '../assets/images/upgs4.jpeg';
+import s3 from '../assets/images/upgs3.jpeg';
+import s4 from '../assets/images/upgs2.jpeg';
+import s5 from '../assets/images/upgs5.jpeg';
+import s6 from '../assets/images/upgs6.jpeg';
+import s7 from '../assets/images/s5.jpeg';
+import s8 from '../assets/images/s9.jpeg';
 import m1 from '../assets/images/m1.jpeg';
 
 const IndexPage = () => <Layout>
@@ -43,11 +46,14 @@ const IndexPage = () => <Layout>
 					<h4>Standard</h4>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-                        <div className="col-12"><span className="image fit"><img src={s8} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={s7} alt="" /></span></div>
+                        	<div className="col-12"><span className="image fit"><img src={s1} alt="" /></span></div>
+							<div className="col-12"><span className="image fit"><img src={s2} alt="" /></span></div>
 							<div className="col-6"><span className="image fit"><img src={s3} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={s2} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={s9} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={s4} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={s5} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={s6} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={s7} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={s8} alt="" /></span></div>
 						</div>
 					</div>                    
 				</section>
