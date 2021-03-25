@@ -26,8 +26,9 @@ const IndexPage = () => <Layout>
                                 </div>
                                 <h4>연락처</h4>
                                 <p>
-                                    <b>이메일: </b>urbanprivategym@gmail.com<br></br>
-                                    <b>카카오톡: </b><a href="https://open.kakao.com/o/s7cj0YZc">https://open.kakao.com/o/s7cj0YZc</a><br></br><br></br>
+                                    카카오톡 플러스 친구로 등록해 주세요<br></br><br></br>
+                                    <b>이메일: </b>urbanprivategym@naver.com<br></br>
+                                    <b>플러스친구: </b><a href="http://pf.kakao.com/_LxcxbyK">링크 바로가기</a><br></br><br></br>
                                 </p>
                             </div>
 							<div className="col-6 col-12-medium"><span className="image fit"><img src={mapImg} alt="" /></span></div>
