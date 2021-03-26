@@ -7,13 +7,19 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-gtag',
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: 'G-264066890', // 측정 ID
-        head: false, // head에 tracking script를 넣고 싶다면 true로 변경 
-        anonymize: true,
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "UA-191023290-1", // Google Analytics / GA
+        ],
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+        },
       },
-    },
+    },    
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
