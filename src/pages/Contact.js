@@ -20,7 +20,7 @@ const IndexPage = () => <Layout>
                                 <div className="row">
                                     <div className="col-6 col-12-medium">
                                         <ul className="actions stacked">
-                                            <li><a href="http://naver.me/54VtdxND" className="button primary fit">네이버 지도로 보기</a></li>
+                                            <li><a href="http://naver.me/GdJyqH5F" className="button primary fit">네이버 지도로 보기</a></li>
                                         </ul>
                                     </div>                                  
                                 </div>
