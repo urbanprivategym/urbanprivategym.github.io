@@ -102,8 +102,8 @@ const IndexPage = () => <Layout>
 										<td>인원 추가 (1인)</td>
 										<td>
 											<span className='orgPrice'>₩8000</span> 
-											<b>&nbsp;₩4800</b>
-											<span className='dicDesc'>&nbsp;40%</span>
+											<b>&nbsp;₩4000</b>
+											<span className='dicDesc'>&nbsp;50%</span>
 										</td>
 									</tr>
 								</tbody>
@@ -132,8 +132,8 @@ const IndexPage = () => <Layout>
 										<td>인원 추가 (1인)</td>
 										<td>
 											<span className='orgPrice'>₩16000</span> 
-											<b>&nbsp;₩9600</b>
-											<span className='dicDesc'>&nbsp;40%</span>
+											<b>&nbsp;₩8000</b>
+											<span className='dicDesc'>&nbsp;50%</span>
 										</td>
 									</tr>
 								</tbody>
