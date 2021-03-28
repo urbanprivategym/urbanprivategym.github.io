@@ -28,7 +28,7 @@ module.exports = {
       style: 'solid',
       icon: 'fa-envelope',
       name: 'Email',
-      url: 'mailto:urbanprivategym@gmail.com',
+      url: 'mailto:urbanprivategym@naver.com',
     },
   ],
 

@@ -20,6 +20,12 @@ import s6 from '../assets/images/upgs6.jpeg';
 import s7 from '../assets/images/s5.jpeg';
 import s8 from '../assets/images/s9.jpeg';
 import m1 from '../assets/images/m1.jpeg';
+import r1 from '../assets/images/r1.jpeg';
+import r2 from '../assets/images/r2.jpeg';
+import r3 from '../assets/images/r3.jpeg';
+import tal1 from '../assets/images/tal1.jpeg';
+import tal2 from '../assets/images/tal2.jpeg';
+import tal3 from '../assets/images/tal3.jpeg';
 
 const IndexPage = () => <Layout>
 	<article id="main">
@@ -69,7 +75,7 @@ const IndexPage = () => <Layout>
 											</td>
 										</tr>
 										<tr>
-											<td>워터 로잉머신 / 스피닝 사이클</td>
+											<td>로잉머신 (입고예정) / 스피닝 사이클</td>
 										</tr>	
 										<tr>
 											<td>
@@ -80,7 +86,7 @@ const IndexPage = () => <Layout>
 											<td>덤벨 / 케틀벨 / EZ바 / 인클라인벤치 / 플랫벤치</td>
 										</tr>										
 										<tr>
-											<td>더블 바벨 잭 / 폼롤러 / 요가매트 및 소도구</td>
+											<td>더블 바벨 잭 / 배틀로프 / 폼롤러 / 요가매트 및 소도구</td>
 										</tr>						
 									</tbody>
 								</table>
@@ -144,7 +150,7 @@ const IndexPage = () => <Layout>
 											</td>
 										</tr>
 										<tr>
-											<td>워터 로잉머신 / 레그 컬, 익스텐션, 암컬 옵션 벤치</td>
+											<td>로잉머신 (입고예정) / 레그 컬, 익스텐션, 암컬 옵션 벤치</td>
 										</tr>	
 										<tr>
 											<td>
@@ -155,7 +161,7 @@ const IndexPage = () => <Layout>
 											<td>덤벨 / 케틀벨 / EZ바 / 인클라인벤치 / 플랫벤치</td>
 										</tr>										
 										<tr>
-											<td>싱글 바벨 잭 / 폼롤러 / 요가매트 및 소도구</td>
+											<td>싱글 바벨 잭 / 배틀로프 / 폼롤러 / 요가매트 및 소도구</td>
 										</tr>	
 									</tbody>
 								</table>
@@ -213,42 +219,22 @@ const IndexPage = () => <Layout>
 					</div>                    
 				</section>
                 <section>
-					<h3>Others</h3>
-					<p>업로드 예정 (휴게시설 / 피팅룸 / 주차공간)</p>
-					{false && 
-					<>
-						<h4>휴게시설</h4>
-						<div className="box alt">
-							<div className="row gtr-50 gtr-uniform">
-								<div className="col-12"><span className="image fit"><img src={b18} alt="" /></span></div>
-								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-							</div>
+					<h3>휴게시설</h3>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+                        	<div className="col-12"><span className="image fit"><img src={r1} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={r2} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={r3} alt="" /></span></div>
 						</div>
-						<h4>피팅룸</h4>
-						<div className="box alt">
-							<div className="row gtr-50 gtr-uniform">
-							<div className="col-12"><span className="image fit"><img src={b19} alt="" /></span></div>
-								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-							</div>
-						</div>  
-						<h4>주차공간</h4>
-						<div className="box alt">
-							<div className="row gtr-50 gtr-uniform">
-							<div className="col-12"><span className="image fit"><img src={b19} alt="" /></span></div>
-								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-								<div className="col-6"><span className="image fit"><img src={m1} alt="" /></span></div>
-							</div>
-						</div>  
-					</> 					
-					}                                       
+					</div>                    
+					<h3>피팅룸</h3>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+                        	<div className="col-12"><span className="image fit"><img src={tal1} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={tal2} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={tal3} alt="" /></span></div>
+						</div>
+					</div>                           
 				</section>
 			</div>
 		</section>
