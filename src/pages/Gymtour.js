@@ -19,13 +19,13 @@ import s5 from '../assets/images/upgs5.jpeg';
 import s6 from '../assets/images/upgs6.jpeg';
 import s7 from '../assets/images/s5.jpeg';
 import s8 from '../assets/images/s9.jpeg';
-import m1 from '../assets/images/m1.jpeg';
 import r1 from '../assets/images/r1.jpeg';
 import r2 from '../assets/images/r2.jpeg';
 import r3 from '../assets/images/r3.jpeg';
 import tal1 from '../assets/images/tal1.jpeg';
 import tal2 from '../assets/images/tal2.jpeg';
 import tal3 from '../assets/images/tal3.jpeg';
+import tal4 from '../assets/images/tal4.jpeg';
 
 const IndexPage = () => <Layout>
 	<article id="main">
@@ -230,7 +230,8 @@ const IndexPage = () => <Layout>
 					<h3>피팅룸</h3>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-                        	<div className="col-12"><span className="image fit"><img src={tal1} alt="" /></span></div>
+                        	<div className="col-6"><span className="image fit"><img src={tal1} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={tal4} alt="" /></span></div>
 							<div className="col-6"><span className="image fit"><img src={tal2} alt="" /></span></div>
 							<div className="col-6"><span className="image fit"><img src={tal3} alt="" /></span></div>
 						</div>
