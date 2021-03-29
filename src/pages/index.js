@@ -18,7 +18,6 @@ const IndexPage = () => (
       <div className="inner">
         <img src={mainLogo} alt="" />
         <p>{config.subHeading}</p>
-        <p>[4월 오픈 준비중]</p>
       </div>
       <Scroll type="id" element="one">
         <a href="#one" className="more">
