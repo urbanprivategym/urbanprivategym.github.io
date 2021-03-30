@@ -6,10 +6,10 @@ import Scroll from '../components/Scroll';
 
 import mainLogo from '../assets/images/logo_white.png';
 import centerImg from '../assets/images/247.jpeg';
-import powerRack from '../assets/images/b16.jpeg';
+import powerRack from '../assets/images/pn4.jpeg';
 import liftingEq from '../assets/images/b3.jpeg';
 import cesco from '../assets/images/cescocare3.jpeg';
-import nobody from '../assets/images/m1.jpeg';
+import sn14 from '../assets/images/sn14.jpeg';
 import config from '../../config';
 
 const IndexPage = () => (
@@ -95,7 +95,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={nobody} alt="" />
+          <img src={sn14} alt="" />
         </div>
         <div className="content">
           <h2>

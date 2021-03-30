@@ -3,22 +3,26 @@ import {Link} from 'react-scroll'
 
 import Layout from '../components/Layout';
 
-import b5 from '../assets/images/b5.jpeg';
-import b7 from '../assets/images/b7.jpeg';
+import pn1 from '../assets/images/pn1.jpeg';
+import pn5 from '../assets/images/pn5.jpeg';
 import b12 from '../assets/images/b12.jpeg';
-import b13 from '../assets/images/b13.jpeg';
-import b15 from '../assets/images/b15.jpeg';
-import b18 from '../assets/images/b18.jpeg';
+import pn6 from '../assets/images/pn6.jpeg';
+import pn9 from '../assets/images/pn9.jpeg';
+import pn12 from '../assets/images/pn12.jpeg';
+import pn3 from '../assets/images/pn3.jpeg';
+import pn10 from '../assets/images/pn10.jpeg';
 import b19 from '../assets/images/b19.jpeg';
 import b21 from '../assets/images/b21.jpeg';
-import s1 from '../assets/images/upgs1.jpeg';
+import s1 from '../assets/images/sn13.jpeg';
 import s2 from '../assets/images/upgs4.jpeg';
-import s3 from '../assets/images/upgs3.jpeg';
+import sn4 from '../assets/images/sn4.jpeg';
 import s4 from '../assets/images/upgs2.jpeg';
 import s5 from '../assets/images/upgs5.jpeg';
 import s6 from '../assets/images/upgs6.jpeg';
-import s7 from '../assets/images/s5.jpeg';
-import s8 from '../assets/images/s9.jpeg';
+import sn1 from '../assets/images/sn1.jpeg';
+import sn3 from '../assets/images/sn3.jpeg';
+import sn6 from '../assets/images/sn6.jpeg';
+import sn7 from '../assets/images/sn7.jpeg';
 import r1 from '../assets/images/r1.jpeg';
 import r2 from '../assets/images/r2.jpeg';
 import r3 from '../assets/images/r3.jpeg';
@@ -40,10 +44,9 @@ const IndexPage = () => <Layout>
 					<div className='row'>
 						<section className='col-6 col-12-medium'>
 							<h3>Premium</h3>
-							<div className="col-12"><span className="image fit"><img src={b15} alt="" /></span></div>
+							<div className="col-12"><span className="image fit"><img src={pn3} alt="" /></span></div>
 							<p>
-								프리미엄은 2-3 인 이용에 적합하며<br></br>
-								넓은 공간 면적과 풍부한 중량 맟 운동 장비를 제공합니다.
+								프리미엄은 보다 넓은 공간 면적과 풍부한 원판 중량 맟 운동 장비들을 제공합니다.
 							</p>	
 							<ul className="actions">
 								<li><Link className="button" to="premiumImage" spy={true} smooth={true}>이미지 더 보기</Link></li>
@@ -117,8 +120,7 @@ const IndexPage = () => <Layout>
 							<h3>Standard</h3>
 							<div className="col-12"><span className="image fit"><img src={s1} alt="" /></span></div>
 							<p>
-								스탠다드는 1-2 인 이용이 적합하며<br></br>
-								컴팩트한 공간 면적과 경제적인 요금으로 구성 하였습니다.
+								스탠다드는 컴팩트한 공간 면적과 경제적인 요금으로 구성 하였습니다.
 							</p>	
 							<ul className="actions">
 								<li><Link className="button" to="standardImage" spy={true} smooth={true}>이미지 더 보기</Link></li>
@@ -194,14 +196,16 @@ const IndexPage = () => <Layout>
 					<h4 id="premiumImage">Premium</h4>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-12"><span className="image fit"><img src={b15} alt="" /></span></div>
-                            <div className="col-12"><span className="image fit"><img src={b7} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={b18} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={b5} alt="" /></span></div>
+							<div className="col-12"><span className="image fit"><img src={pn3} alt="" /></span></div>
+                            <div className="col-12"><span className="image fit"><img src={pn5} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={pn10} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={pn1} alt="" /></span></div>
 							<div className="col-6"><span className="image fit"><img src={b19} alt="" /></span></div>
 							<div className="col-6"><span className="image fit"><img src={b21} alt="" /></span></div>
                             <div className="col-6"><span className="image fit"><img src={b12} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={b13} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={pn12} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={pn6} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={pn9} alt="" /></span></div>
 						</div>
 					</div>
 					<h4 id="standardImage">Standard</h4>
@@ -209,12 +213,14 @@ const IndexPage = () => <Layout>
 						<div className="row gtr-50 gtr-uniform">
                         	<div className="col-12"><span className="image fit"><img src={s1} alt="" /></span></div>
 							<div className="col-12"><span className="image fit"><img src={s2} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={s3} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={sn4} alt="" /></span></div>
 							<div className="col-6"><span className="image fit"><img src={s4} alt="" /></span></div>
 							<div className="col-6"><span className="image fit"><img src={s5} alt="" /></span></div>
 							<div className="col-6"><span className="image fit"><img src={s6} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={s7} alt="" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={s8} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={sn6} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={sn7} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={sn1} alt="" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={sn3} alt="" /></span></div>
 						</div>
 					</div>                    
 				</section>
