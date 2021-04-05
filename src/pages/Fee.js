@@ -11,7 +11,7 @@ const IndexPage = () => <Layout>
 		<section className="wrapper style5">
 			<div className="inner">
                 <h2>이용요금</h2>
-                <h5>코로나로 인하여 최대 4명까지 입장이 가능합니다</h5>
+                <h5>4월 한달간 오픈특가로 최대 50% 할인을 진행하고 있습니다</h5>
                 <br></br>
 
 				<div className='row'>

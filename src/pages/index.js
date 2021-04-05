@@ -75,7 +75,7 @@ const IndexPage = () => (
           <p>
             Eleiko, REP fitness, Podium 등 최상급 바벨과 함께
             충분한 중량의 올림픽 규격 최고급 우레탄 플레이트와 주물 원판을 완비했습니다. 
-            Premium room 은 약 460kg, Standard room 은 약 350kg의 중량 사용이 가능합니다.
+            Premium room 은 약 605kg, Standard room 은 약 350kg의 중량 사용이 가능합니다.
           </p>
         </div>
       </section>
@@ -115,7 +115,7 @@ const IndexPage = () => (
           <h2>어반 프라이빗짐을 활용하는 방법</h2>
           <br></br><br></br>
           <div className="iframeContainer">
-            <iframe title='youTubeVideo' src="https://www.youtube.com/embed/ypPqXwyihB0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe title='youTubeVideo' src="https://www.youtube.com/embed/TVNZiuzVpWg" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>    
           <br></br>   
         </header>

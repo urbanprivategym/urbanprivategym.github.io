@@ -6,7 +6,7 @@ const IndexPage = () => <Layout>
 	<article id="main">
 		<header>
 			<h2>위치 및 연락처</h2>
-			<p>카카오톡 오픈 프로필 및 이메일로 연락 주시면 빠르게 답변 드리겠습니다</p>
+			<p>카톡 플러스친구 및 인스타 DM으로 연락 주시면 빠르게 답변 드리겠습니다</p>
 		</header>
 		<section className="wrapper style5">
 			<div className="inner">
@@ -26,9 +26,9 @@ const IndexPage = () => <Layout>
                                 </div>
                                 <h4>연락처</h4>
                                 <p>
-                                    카카오톡 플러스 친구로 등록해 주세요<br></br><br></br>
-                                    <b>이메일: </b>urbanprivategym@naver.com<br></br>
-                                    <b>플러스친구: </b><a href="http://pf.kakao.com/_LxcxbyK">링크 바로가기</a><br></br><br></br>
+                                    <b>이메일 : </b>urbanprivategym@naver.com<br></br>
+                                    <b>인스타그램 : </b><a href="http://pf.kakao.com/_LxcxbyK">링크 바로가기</a><br></br>
+                                    <b>플러스친구 : </b><a href="https://www.instagram.com/urbanprivategym/">@urbanprivategym</a><br></br><br></br>
                                 </p>
                             </div>
 							<div className="col-6 col-12-medium"><span className="image fit"><img src={mapImg} alt="" /></span></div>
