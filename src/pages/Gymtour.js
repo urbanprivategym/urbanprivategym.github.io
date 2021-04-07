@@ -123,7 +123,7 @@ const IndexPage = () => <Layout>
 							<div className="col-12"><span className="image fit"><img src={s1} alt="" /></span></div>
 							<p>
 								어반 스탠다드는 컴팩트한 공간 면적과 경제적인 요금으로 구성 하였으며
-								1인이 이용하기에 적합한 사이즈로 견고한 하프랙과 목재 플랫폼이 구비되어 있고,
+								1인이 이용하기에 쾌적한 사이즈로 견고한 하프랙과 목재 플랫폼이 구비되어 있고,
 								1개의 파워리프팅 바벨과 총 350kg 의 중량 플레이트를 갖추고 있습니다. 						
 							</p>	
 							<ul className="actions">
