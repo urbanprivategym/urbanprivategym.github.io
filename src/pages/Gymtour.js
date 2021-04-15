@@ -75,6 +75,12 @@ const IndexPage = () => <Layout>
 										</tr>
 										<tr>
 											<td>
+												더스크랙 경량 숏 바벨<br></br>
+												<small>1500mm / 12kg</small>
+											</td>
+										</tr>
+										<tr>
+											<td>
 												포디움 우레탄 원판 / 크라토스 주물원판
 												<small> 총 605kg</small>
 											</td>
@@ -149,6 +155,12 @@ const IndexPage = () => <Layout>
 												<small>2200mm / 20kg</small>
 											</td>											
 										</tr>
+										<tr>
+											<td>
+												더스크랙 경량 숏 바벨<br></br>
+												<small>1500mm / 12kg</small>
+											</td>
+										</tr>							
 										<tr>
 											<td>
 												포디움 우레탄 원판
