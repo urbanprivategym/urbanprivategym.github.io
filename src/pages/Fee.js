@@ -11,12 +11,15 @@ const IndexPage = () => <Layout>
 		<section className="wrapper style5">
 			<div className="inner">
                 <h2>이용요금</h2>
-                <h5>4월 한달간 오픈특가로 최대 50% 할인을 진행하고 있습니다</h5>
+                <h5>5월 여름준비특가로 최대 50% 할인을 진행하고 있습니다</h5>
                 <br></br>
-
-				<div className='row'>
+				{true &&
+					<div className='row'>
 					<section className='col-6 col-12-medium'>
-						<h3>Happy Hour <span className='openTime'>(00:00 ~ 08:00)</span></h3>
+						<h3>
+							Happy Hour<br></br>
+							<span className='openTime'>평일 05:00 ~ 18:00</span>
+						</h3>
 						<h5>Standard</h5>
 						<div className="table-wrapper">
 							<table>
@@ -31,16 +34,16 @@ const IndexPage = () => <Layout>
 										<td>1인</td>
 										<td>
 											<span className='orgPrice'>₩15000</span> 
-											<b>&nbsp;₩7500</b>
-											<span className='dicDesc'>&nbsp;50%</span>
+											<b>&nbsp;₩9000</b>
+											<span className='dicDesc'>&nbsp;40%</span>
 										</td>
 									</tr>
 									<tr>
 										<td>인원 추가 (1인)</td>
 										<td>
 											<span className='orgPrice'>₩8000</span> 
-											<b>&nbsp;₩4000</b>
-											<span className='dicDesc'>&nbsp;50%</span>
+											<b>&nbsp;₩6000</b>
+											<span className='dicDesc'>&nbsp;25%</span>
 										</td>
 									</tr>
 								</tbody>
@@ -79,7 +82,10 @@ const IndexPage = () => <Layout>
 					</section>
 
 					<section className='col-6 col-12-medium'>
-						<h3>Busy hour <span className='openTime'>(08:00 ~ 24:00)</span></h3>
+						<h3>
+							Busy hour<br></br>
+							<span className='openTime'>평일 18:00 ~ 24:00 / 주말 전체</span>
+						</h3>
 						<h5>Standard</h5>
 						<div className="table-wrapper">
 							<table>
@@ -94,16 +100,16 @@ const IndexPage = () => <Layout>
 									<td>1인</td>
 										<td>
 											<span className='orgPrice'>₩15000</span> 
-											<b>&nbsp;₩9000</b>
-											<span className='dicDesc'>&nbsp;40%</span>
+											<b>&nbsp;₩11000</b>
+											<span className='dicDesc'>&nbsp;26.6%</span>
 										</td>
 									</tr>
 									<tr>
 										<td>인원 추가 (1인)</td>
 										<td>
 											<span className='orgPrice'>₩8000</span> 
-											<b>&nbsp;₩4000</b>
-											<span className='dicDesc'>&nbsp;50%</span>
+											<b>&nbsp;₩6000</b>
+											<span className='dicDesc'>&nbsp;25%</span>
 										</td>
 									</tr>
 								</tbody>
@@ -141,7 +147,7 @@ const IndexPage = () => <Layout>
 						</div>
 					</section>
 				</div>
-
+				}
 				<section>
 					<ul className="actions">
 						<li><a href="https://m.booking.naver.com/booking/10/bizes/503082" className="button primary">예약하러 가기</a></li>
