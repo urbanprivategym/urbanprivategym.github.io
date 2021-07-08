@@ -8,7 +8,7 @@ import pn5 from '../assets/images/pn5.jpeg';
 import b12 from '../assets/images/b12.jpeg';
 import pn6 from '../assets/images/pn6.jpeg';
 import pn9 from '../assets/images/rm1.jpeg';
-import pn12 from '../assets/images/pn12.jpeg';
+import pn12 from '../assets/images/sandbag.jpeg';
 import pn3 from '../assets/images/pn3.jpeg';
 import pn10 from '../assets/images/pn10.jpeg';
 import b19 from '../assets/images/b19.jpeg';
@@ -86,7 +86,7 @@ const IndexPage = () => <Layout>
 											</td>
 										</tr>
 										<tr>
-											<td>워터 로잉머신 / 스피닝 사이클</td>
+											<td>샌드백 / 워터 로잉머신 / 스피닝 사이클</td>
 										</tr>	
 										<tr>
 											<td>

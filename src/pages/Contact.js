@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import mapImg from '../assets/images/upgym_map.png';
+import juchaImg from '../assets/images/jucha.png';
 
 const IndexPage = () => <Layout>
 	<article id="main">
@@ -33,6 +34,26 @@ const IndexPage = () => <Layout>
                             </div>
 							<div className="col-6 col-12-medium"><span className="image fit"><img src={mapImg} alt="" /></span></div>
 						</div>
+                        <hr></hr>
+						<div className="row gtr-50 gtr-uniform">
+                            <div className="col-6 col-12-medium">
+                                <h3>건물 제공 주차공간</h3>
+                                <p>
+                                    * 식당(사계솔) 앞 대각선 주차 가능<br></br>
+                                    * 식당 좌측 주차공간 안쪽부터 채워서 주차 가능<br></br>
+                                    * 자동차에 연락처 꼭 남겨주세요 ^^<br></br>
+                                    <br></br>
+                                </p>
+                                <h3>기타 주차공간</h3>
+                                <p>
+                                    <b><a href="http://naver.me/x1euX35P">1) 어프짐 건물 바로 옆 유료주차장 (도곡주차장)</a></b><br></br>
+                                    <b><a href="http://naver.me/Gw55kuMs">2) 논현로 28길 노상공영주차장</a></b><br></br>
+                                    <b><a href="http://naver.me/GvkfuBK5">3) 도곡샛길공영노외주차장</a></b><br></br>
+                                    <br></br>
+                                </p>
+                            </div>
+							<div className="col-6 col-12-medium"><span className="image fit"><img src={juchaImg} alt="" /></span></div>
+						</div>                        
 					</div>
                 </section>
 			</div>

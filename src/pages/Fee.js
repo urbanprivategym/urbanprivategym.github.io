@@ -11,7 +11,7 @@ const IndexPage = () => <Layout>
 		<section className="wrapper style5">
 			<div className="inner">
                 <h2>이용요금</h2>
-                <h5>5월 여름준비특가로 최대 50% 할인을 진행하고 있습니다</h5>
+                <h5>가격은 수시로 변동될 수 있으니, 아래의 예약 링크에서 자세히 확인해 주세요</h5>
                 <br></br>
 				{true &&
 					<div className='row'>
@@ -33,16 +33,16 @@ const IndexPage = () => <Layout>
 									<tr>
 										<td>1인</td>
 										<td>
-											<span className='orgPrice'>₩15000</span> 
-											<b>&nbsp;₩9000</b>
+											<span className='orgPrice'>₩15,000</span> 
+											<b>&nbsp;₩9,000</b>
 											<span className='dicDesc'>&nbsp;40%</span>
 										</td>
 									</tr>
 									<tr>
 										<td>인원 추가 (1인)</td>
 										<td>
-											<span className='orgPrice'>₩8000</span> 
-											<b>&nbsp;₩6000</b>
+											<span className='orgPrice'>₩8,000</span> 
+											<b>&nbsp;₩6,000</b>
 											<span className='dicDesc'>&nbsp;25%</span>
 										</td>
 									</tr>
@@ -63,16 +63,16 @@ const IndexPage = () => <Layout>
 									<tr>
 										<td>1인</td>
 										<td>
-											<span className='orgPrice'>₩30000</span> 
-											<b>&nbsp;₩15000</b>
+											<span className='orgPrice'>₩30,000</span> 
+											<b>&nbsp;₩13,000</b>
 											<span className='dicDesc'>&nbsp;50%</span>
 										</td>
 									</tr>
 									<tr>
 										<td>인원 추가 (1인)</td>
 										<td>
-											<span className='orgPrice'>₩16000</span> 
-											<b>&nbsp;₩8000</b>
+											<span className='orgPrice'>₩16,000</span> 
+											<b>&nbsp;₩8,000</b>
 											<span className='dicDesc'>&nbsp;50%</span>
 										</td>
 									</tr>
@@ -99,16 +99,16 @@ const IndexPage = () => <Layout>
 								<tr>
 									<td>1인</td>
 										<td>
-											<span className='orgPrice'>₩15000</span> 
-											<b>&nbsp;₩11000</b>
+											<span className='orgPrice'>₩15,000</span> 
+											<b>&nbsp;₩11,000</b>
 											<span className='dicDesc'>&nbsp;26.6%</span>
 										</td>
 									</tr>
 									<tr>
 										<td>인원 추가 (1인)</td>
 										<td>
-											<span className='orgPrice'>₩8000</span> 
-											<b>&nbsp;₩6000</b>
+											<span className='orgPrice'>₩8,000</span> 
+											<b>&nbsp;₩6,000</b>
 											<span className='dicDesc'>&nbsp;25%</span>
 										</td>
 									</tr>
@@ -129,16 +129,16 @@ const IndexPage = () => <Layout>
 									<tr>
 										<td>1인</td>
 										<td>
-											<span className='orgPrice'>₩30000</span> 
-											<b>&nbsp;₩18000</b>
+											<span className='orgPrice'>₩30,000</span> 
+											<b>&nbsp;₩16,000</b>
 											<span className='dicDesc'>&nbsp;40%</span>
 										</td>
 									</tr>
 									<tr>
 										<td>인원 추가 (1인)</td>
 										<td>
-											<span className='orgPrice'>₩16000</span> 
-											<b>&nbsp;₩8000</b>
+											<span className='orgPrice'>₩16,000</span> 
+											<b>&nbsp;₩80,00</b>
 											<span className='dicDesc'>&nbsp;50%</span>
 										</td>
 									</tr>
