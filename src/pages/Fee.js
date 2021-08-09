@@ -138,7 +138,7 @@ const IndexPage = () => <Layout>
 										<td>인원 추가 (1인)</td>
 										<td>
 											<span className='orgPrice'>₩16,000</span> 
-											<b>&nbsp;₩80,00</b>
+											<b>&nbsp;₩8,000</b>
 											<span className='dicDesc'>&nbsp;50%</span>
 										</td>
 									</tr>

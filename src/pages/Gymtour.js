@@ -41,6 +41,11 @@ const IndexPage = () => <Layout>
 			<div className="inner">
 				<section>
 					<h2>어반프라이빗짐은 두 공간이 있습니다</h2>
+					<p>
+						감염병 예방을 위해 두 운동 공간에 일 3회이상 소독을 실시하며<br></br>
+						고객님들께 이용 중 마스크 사용과 손소독제, 소독 스프레이 이용을 안내하고 있습니다.<br></br>
+						또한 세스코 바이러스케어 시스템 및 환기 덕트를 갖추고 있어 더욱 쾌적하고 안전한 이용이 가능합니다.
+					</p>
 					<div className='row'>
 						<section className='col-6 col-12-medium'>
 							<h3>Urban Premium</h3>
