@@ -2,8 +2,6 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import Scroll from '../components/Scroll';
-
 import mainLogo from '../assets/images/logo_white.png';
 import centerImg from '../assets/images/247.jpeg';
 import powerRack from '../assets/images/pn4.jpeg';
@@ -19,11 +17,15 @@ const IndexPage = () => (
         <img src={mainLogo} alt="" />
         <p>{config.subHeading}</p>
       </div>
-      <Scroll type="id" element="one">
-        <a href="#one" className="more">
-          Learn More
-        </a>
-      </Scroll>
+      <div className="row">
+        <div className="col-3 col-2-medium"></div> 
+        <div className="col-6 col-8-medium">
+            <ul className="actions stacked">
+                <li><a href="http://naver.me/GdJyqH5F" className="button default fit">지금 바로 예약하기</a></li>
+            </ul>
+        </div>  
+        <div className="col-3 col-2-medium"></div>                                 
+    </div>
     </section>
 
     <section id="one" className="wrapper style1 special">
